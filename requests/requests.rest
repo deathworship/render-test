@@ -1,0 +1,24 @@
+GET http://localhost:3001/api/notes/
+
+###
+
+DELETE http://localhost:3001/api/notes/1
+
+###
+
+POST http://localhost:3001/api/notes/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "content": "testing backend",
+    "important": true
+}
+
+###
+
+POST http://localhost:3001/api/notes/ HTTP/1.1
+Content-Type: application/json
+
+{
+    
+}
